@@ -3,56 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cidade & Campo: Um Contraste Fascinante</title>
+    <title>Cidade & Campo: Harmonia em Cores Vivas</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Cidade & Campo</h1>
-        <p>A beleza dos dois mundos em um só lugar.</p>
+        <div class="container">
+            <h1>Cidade & Campo</h1>
+            <p>Descubra a riqueza de dois mundos vibrantes.</p>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Início</a></li>
+                    <li><a href="#city-vibe">Vida Urbana</a></li>
+                    <li><a href="#country-charm">Encanto Rural</a></li>
+                    <li><a href="#comparison">Comparação</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="hero-section city">
+        <section id="intro" class="hero-section intro-bg">
             <div class="overlay"></div>
             <div class="content">
-                <h2>O Ritmo Urbano</h2>
-                <p>Descubra a energia vibrante, a arquitetura imponente e a vida pulsante das grandes cidades.</p>
-                <a href="#city-gallery" class="btn">Explorar a Cidade</a>
+                <h2>Onde o Concreto Encontra o Verde</h2>
+                <p>Uma jornada visual pelos contrastes e harmonias da vida moderna na cidade e a serenidade da natureza no campo.</p>
+                <a href="#city-vibe" class="btn btn-primary">Começar a Exploração</a>
             </div>
         </section>
 
-        <section class="hero-section countryside">
-            <div class="overlay"></div>
-            <div class="content">
-                <h2>A Serenidade Rural</h2>
-                <p>Relaxe na tranquilidade do campo, aprecie paisagens deslumbrantes e a simplicidade da vida.</p>
-                <a href="#country-gallery" class="btn">Explorar o Campo</a>
+        <section id="city-vibe" class="section-padded city-theme">
+            <div class="container">
+                <h2>A Pulsação da Cidade</h2>
+                <p class="section-subtitle">Experimente a energia inesgotável, a inovação e as infinitas possibilidades que a vida urbana oferece.</p>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <img src="https://images.unsplash.com/photo-1596701073161-c81b67f1396a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHwzfHxjaXR5c2NhcGUlMjBkYXlsaWdodCUyMHZpYnJhbnR8ZW58MHx8fHwxNzE4MjE1Nzk5fDA&ixlib=rb-4.0.3&q=80&w=600" alt="Vista da cidade durante o dia">
+                        <h3>Arquitetura Moderna</h3>
+                        <p>Arranca-céus imponentes e designs inovadores que moldam o horizonte.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="https://images.unsplash.com/photo-1549514757-932f91a61355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw1fHxjaXR5JTIwYW5kJTIwZGl2ZXJzaXR5fGVufDB8fHwxNzE4MjE2OTc3fDA&ixlib=rb-4.0.3&q=80&w=600" alt="Pessoas caminhando em uma rua movimentada da cidade">
+                        <h3>Cultura e Lazer</h3>
+                        <p>Museus, teatros, restaurantes e uma vida noturna agitada esperam por você.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="https://images.unsplash.com/photo-1582213782179-e0dce3817929?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw4fHxjaXR5JTIwdHJhbnNwb3J0YXRpb258ZW58MHx8fHwxNzE4MjE2OTc3fDA&ixlib=rb-4.0.3&q=80&w=600" alt="Sistema de transporte público na cidade">
+                        <h3>Conectividade</h3>
+                        <p>Facilidade de transporte e acesso rápido a serviços e tecnologias.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="city-gallery" class="gallery-section">
-            <h2>Galeria da Cidade</h2>
-            <div class="image-grid">
-                <img src="https://images.unsplash.com/photo-1547849642-f8510f2b2d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw1fHxjaXR5c2NhcGV8ZW58MHx8fHwxNzE4MjE1NTAyfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Arranha-céus iluminados à noite">
-                <img src="https://images.unsplash.com/photo-1514565134-e4905a8f4c39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw3fHxjaXR5JTIwYW5kJTIwdHJhZmZpY3xlbnwwfHx8fDE3MTgyMTU1MzN8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Rua movimentada da cidade com carros e prédios">
-                <img src="https://images.unsplash.com/photo-1534008139599-23a571220456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw1fHxhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzE4MjE1NTU4fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Vista panorâmica da cidade com edifícios modernos">
+        <section id="country-charm" class="section-padded countryside-theme">
+            <div class="container">
+                <h2>O Charme do Campo</h2>
+                <p class="section-subtitle">Sinta a brisa suave, os aromas da terra e a paz que só a natureza pode oferecer.</p>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <img src="https://images.unsplash.com/photo-1473188950892-d04b6b669747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHwxfHxkcmFtYXRpYyUyMGNvdW50cnlzaWRlJTIwc2NlbmVyeXxlbnwwfHx8fDE3MTgyMTU4NzF8MA&ixlib=rb-4.0.3&q=80&w=600" alt="Paisagem rural com montanhas e rio">
+                        <h3>Paisagens Deslumbrantes</h3>
+                        <p>Campos verdes, montanhas majestosas e rios cristalinos esperam por você.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="https://images.unsplash.com/photo-1506748689303-mr12ed6d1746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw0fHxhdXR1bW4lMjBjb3VudHJ5c2lkZSUyMGZpZWxkfGVufDB8fHx8MTcxODIxNTg3MXww&lib=rb-4.0.3&q=80&w=600" alt="Rebanho de ovelhas em um campo">
+                        <h3>Vida Simples</h3>
+                        <p>Desconecte-se do corre-corre e reconecte-se com a essência da vida.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="https://images.unsplash.com/photo-1549927931-e12b9d2f62b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw3fHxiaXJkcyUyMGZseWluZyUyMGluJTIwc2t5JTIwb3ZlciUyMGZpZWxkfGVufDB8fHx8MTcxODIxNTc0M3ww&lib=rb-4.0.3&q=80&w=600" alt="Por do sol em um campo com céu laranja">
+                        <h3>Aromas e Sabores</h3>
+                        <p>Produtos frescos da terra e a culinária autêntica do interior.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="country-gallery" class="gallery-section">
-            <h2>Galeria do Campo</h2>
-            <div class="image-grid">
-                <img src="https://images.unsplash.com/photo-1533107869688-2947f6071477?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHwxNXx8Y291bnRyeXNpZGUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzE4MjE1Njg2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Campo verde com montanhas ao fundo">
-                <img src="https://images.unsplash.com/photo-1498307833015-cb788ce45455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw0fHxydXJhbCUyMGlkeWxsaWMlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzE4MjE1NzE0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Estrada de terra em meio a um campo aberto">
-                <img src="https://images.unsplash.com/photo-1517457210200-a292d37c35e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDR8MHwxfHNlYXJjaHw3fHxiaXJkcyUyMGZseWluZyUyMGluJTIwc2t5JTIwb3ZlciUyMGZpZWxkfGVufDB8fHx8MTcxODIxNTc0M3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Pôr do sol sobre um campo com árvores">
+        <section id="comparison" class="section-padded contrast-theme">
+            <div class="container">
+                <h2>Cidade vs. Campo: Um Diálogo</h2>
+                <p class="section-subtitle">Analisando as vantagens e desvantagens de cada estilo de vida.</p>
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Característica</th>
+                                <th>Cidade</th>
+                                <th>Campo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>**Estilo de Vida**</td>
+                                <td>Dinâmico, rápido, diversificado</td>
+                                <td>Calmo, tranquilo, conectado à natureza</td>
+                            </tr>
+                            <tr>
+                                <td>**Oportunidades**</td>
+                                <td>Empregos, educação, entretenimento</td>
+                                <td>Agricultura, turismo rural, qualidade de vida</td>
+                            </tr>
+                            <tr>
+                                <td>**Qualidade do Ar**</td>
+                                <td>Variável, maior poluição</td>
+                                <td>Geralmente mais puro</td>
+                            </tr>
+                            <tr>
+                                <td>**Custo de Vida**</td>
+                                <td>Geralmente mais alto</td>
+                                <td>Geralmente mais baixo</td>
+                            </tr>
+                            <tr>
+                                <td>**Transporte**</td>
+                                <td>Público, muitas opções</td>
+                                <td>Dependência de carro, menos opções</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Qual é o seu preferido?</h2>
+                <p>Compartilhe suas ideias ou tire suas dúvidas. Adoraríamos saber sua opinião!</p>
+                <form action="#" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="message" placeholder="Sua Mensagem" rows="6" required></textarea>
+                    <button type="submit" class="btn btn-secondary">Enviar Mensagem</button>
+                </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Cidade & Campo. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2025 Cidade & Campo. Todos os direitos reservados. Design com <span style="color: #e74c3c;">❤</span></p>
+        </div>
     </footer>
 </body>
 </html>
